@@ -1,19 +1,311 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\karl\\source\\repos\\eshop-microservice\\eshop microservice\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\karl\\source\\repos\\eshop-microservice\\src\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B9A9B6BA-3DFC-43E0-8DBA-BA2E8A28059E}|Services\\Catalog\\Catalog.API\\Catalog.API.csproj|c:\\users\\karl\\source\\repos\\eshop-microservice\\src\\services\\catalog\\catalog.api\\products\\updateproduct\\updateproducthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9A9B6BA-3DFC-43E0-8DBA-BA2E8A28059E}|Services\\Catalog\\Catalog.API\\Catalog.API.csproj|solutionrelative:services\\catalog\\catalog.api\\products\\updateproduct\\updateproducthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9A9B6BA-3DFC-43E0-8DBA-BA2E8A28059E}|Services\\Catalog\\Catalog.API\\Catalog.API.csproj|c:\\users\\karl\\source\\repos\\eshop-microservice\\src\\services\\catalog\\catalog.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9A9B6BA-3DFC-43E0-8DBA-BA2E8A28059E}|Services\\Catalog\\Catalog.API\\Catalog.API.csproj|solutionrelative:services\\catalog\\catalog.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C94AAC6-E0FD-4693-9D95-3B70782CF9B6}|BulidingBlocks\\BuildingBlocks\\BuildingBlocks.csproj|c:\\users\\karl\\source\\repos\\eshop-microservice\\src\\bulidingblocks\\buildingblocks\\exceptions\\handler\\customexceptionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C94AAC6-E0FD-4693-9D95-3B70782CF9B6}|BulidingBlocks\\BuildingBlocks\\BuildingBlocks.csproj|solutionrelative:bulidingblocks\\buildingblocks\\exceptions\\handler\\customexceptionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C94AAC6-E0FD-4693-9D95-3B70782CF9B6}|BulidingBlocks\\BuildingBlocks\\BuildingBlocks.csproj|c:\\users\\karl\\source\\repos\\eshop-microservice\\src\\bulidingblocks\\buildingblocks\\exceptions\\badrequestexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C94AAC6-E0FD-4693-9D95-3B70782CF9B6}|BulidingBlocks\\BuildingBlocks\\BuildingBlocks.csproj|solutionrelative:bulidingblocks\\buildingblocks\\exceptions\\badrequestexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9A9B6BA-3DFC-43E0-8DBA-BA2E8A28059E}|Services\\Catalog\\Catalog.API\\Catalog.API.csproj|c:\\users\\karl\\source\\repos\\eshop-microservice\\src\\services\\catalog\\catalog.api\\exceptions\\productnotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9A9B6BA-3DFC-43E0-8DBA-BA2E8A28059E}|Services\\Catalog\\Catalog.API\\Catalog.API.csproj|solutionrelative:services\\catalog\\catalog.api\\exceptions\\productnotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9A9B6BA-3DFC-43E0-8DBA-BA2E8A28059E}|Services\\Catalog\\Catalog.API\\Catalog.API.csproj|c:\\users\\karl\\source\\repos\\eshop-microservice\\src\\services\\catalog\\catalog.api\\products\\deleteproduct\\deleteproducthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9A9B6BA-3DFC-43E0-8DBA-BA2E8A28059E}|Services\\Catalog\\Catalog.API\\Catalog.API.csproj|solutionrelative:services\\catalog\\catalog.api\\products\\deleteproduct\\deleteproducthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9A9B6BA-3DFC-43E0-8DBA-BA2E8A28059E}|Services\\Catalog\\Catalog.API\\Catalog.API.csproj|c:\\users\\karl\\source\\repos\\eshop-microservice\\src\\services\\catalog\\catalog.api\\products\\getproductbycategory\\getproductbycategoryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9A9B6BA-3DFC-43E0-8DBA-BA2E8A28059E}|Services\\Catalog\\Catalog.API\\Catalog.API.csproj|solutionrelative:services\\catalog\\catalog.api\\products\\getproductbycategory\\getproductbycategoryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9A9B6BA-3DFC-43E0-8DBA-BA2E8A28059E}|Services\\Catalog\\Catalog.API\\Catalog.API.csproj|c:\\users\\karl\\source\\repos\\eshop-microservice\\src\\services\\catalog\\catalog.api\\products\\getproductbyid\\getproductbyidhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9A9B6BA-3DFC-43E0-8DBA-BA2E8A28059E}|Services\\Catalog\\Catalog.API\\Catalog.API.csproj|solutionrelative:services\\catalog\\catalog.api\\products\\getproductbyid\\getproductbyidhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C94AAC6-E0FD-4693-9D95-3B70782CF9B6}|BulidingBlocks\\BuildingBlocks\\BuildingBlocks.csproj|c:\\users\\karl\\source\\repos\\eshop-microservice\\src\\bulidingblocks\\buildingblocks\\exceptions\\internalserverexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C94AAC6-E0FD-4693-9D95-3B70782CF9B6}|BulidingBlocks\\BuildingBlocks\\BuildingBlocks.csproj|solutionrelative:bulidingblocks\\buildingblocks\\exceptions\\internalserverexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C94AAC6-E0FD-4693-9D95-3B70782CF9B6}|BulidingBlocks\\BuildingBlocks\\BuildingBlocks.csproj|c:\\users\\karl\\source\\repos\\eshop-microservice\\src\\bulidingblocks\\buildingblocks\\exceptions\\notfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C94AAC6-E0FD-4693-9D95-3B70782CF9B6}|BulidingBlocks\\BuildingBlocks\\BuildingBlocks.csproj|solutionrelative:bulidingblocks\\buildingblocks\\exceptions\\notfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C94AAC6-E0FD-4693-9D95-3B70782CF9B6}|BulidingBlocks\\BuildingBlocks\\BuildingBlocks.csproj|c:\\users\\karl\\source\\repos\\eshop-microservice\\src\\bulidingblocks\\buildingblocks\\behaviors\\validationbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C94AAC6-E0FD-4693-9D95-3B70782CF9B6}|BulidingBlocks\\BuildingBlocks\\BuildingBlocks.csproj|solutionrelative:bulidingblocks\\buildingblocks\\behaviors\\validationbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9A9B6BA-3DFC-43E0-8DBA-BA2E8A28059E}|Services\\Catalog\\Catalog.API\\Catalog.API.csproj|c:\\users\\karl\\source\\repos\\eshop-microservice\\src\\services\\catalog\\catalog.api\\products\\deleteproduct\\deleteproductendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9A9B6BA-3DFC-43E0-8DBA-BA2E8A28059E}|Services\\Catalog\\Catalog.API\\Catalog.API.csproj|solutionrelative:services\\catalog\\catalog.api\\products\\deleteproduct\\deleteproductendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9A9B6BA-3DFC-43E0-8DBA-BA2E8A28059E}|Services\\Catalog\\Catalog.API\\Catalog.API.csproj|c:\\users\\karl\\source\\repos\\eshop-microservice\\src\\services\\catalog\\catalog.api\\products\\updateproduct\\updateproductendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9A9B6BA-3DFC-43E0-8DBA-BA2E8A28059E}|Services\\Catalog\\Catalog.API\\Catalog.API.csproj|solutionrelative:services\\catalog\\catalog.api\\products\\updateproduct\\updateproductendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9A9B6BA-3DFC-43E0-8DBA-BA2E8A28059E}|Services\\Catalog\\Catalog.API\\Catalog.API.csproj|c:\\users\\karl\\source\\repos\\eshop-microservice\\src\\services\\catalog\\catalog.api\\products\\createproduct\\createproductendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9A9B6BA-3DFC-43E0-8DBA-BA2E8A28059E}|Services\\Catalog\\Catalog.API\\Catalog.API.csproj|solutionrelative:services\\catalog\\catalog.api\\products\\createproduct\\createproductendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9A9B6BA-3DFC-43E0-8DBA-BA2E8A28059E}|Services\\Catalog\\Catalog.API\\Catalog.API.csproj|c:\\users\\karl\\source\\repos\\eshop-microservice\\src\\services\\catalog\\catalog.api\\globalusing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9A9B6BA-3DFC-43E0-8DBA-BA2E8A28059E}|Services\\Catalog\\Catalog.API\\Catalog.API.csproj|solutionrelative:services\\catalog\\catalog.api\\globalusing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9A9B6BA-3DFC-43E0-8DBA-BA2E8A28059E}|Services\\Catalog\\Catalog.API\\Catalog.API.csproj|c:\\users\\karl\\source\\repos\\eshop-microservice\\src\\services\\catalog\\catalog.api\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9A9B6BA-3DFC-43E0-8DBA-BA2E8A28059E}|Services\\Catalog\\Catalog.API\\Catalog.API.csproj|solutionrelative:services\\catalog\\catalog.api\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9A9B6BA-3DFC-43E0-8DBA-BA2E8A28059E}|Services\\Catalog\\Catalog.API\\Catalog.API.csproj|c:\\users\\karl\\source\\repos\\eshop-microservice\\src\\services\\catalog\\catalog.api\\products\\getproductbyid\\getproductbyidendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9A9B6BA-3DFC-43E0-8DBA-BA2E8A28059E}|Services\\Catalog\\Catalog.API\\Catalog.API.csproj|solutionrelative:services\\catalog\\catalog.api\\products\\getproductbyid\\getproductbyidendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 1,
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedHeight": 200,
-          "SelectedChildIndex": -1,
+          "DockedHeight": 318,
+          "SelectedChildIndex": 5,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GetProductByCategoryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\karl\\source\\repos\\eshop-microservice\\src\\Services\\Catalog\\Catalog.API\\Products\\GetProductByCategory\\GetProductByCategoryHandler.cs",
+              "RelativeDocumentMoniker": "Services\\Catalog\\Catalog.API\\Products\\GetProductByCategory\\GetProductByCategoryHandler.cs",
+              "ToolTip": "C:\\Users\\karl\\source\\repos\\eshop-microservice\\src\\Services\\Catalog\\Catalog.API\\Products\\GetProductByCategory\\GetProductByCategoryHandler.cs",
+              "RelativeToolTip": "Services\\Catalog\\Catalog.API\\Products\\GetProductByCategory\\GetProductByCategoryHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-25T14:09:14.442Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "InternalServerException.cs",
+              "DocumentMoniker": "C:\\Users\\karl\\source\\repos\\eshop-microservice\\src\\BulidingBlocks\\BuildingBlocks\\Exceptions\\InternalServerException.cs",
+              "RelativeDocumentMoniker": "BulidingBlocks\\BuildingBlocks\\Exceptions\\InternalServerException.cs",
+              "ToolTip": "C:\\Users\\karl\\source\\repos\\eshop-microservice\\src\\BulidingBlocks\\BuildingBlocks\\Exceptions\\InternalServerException.cs",
+              "RelativeToolTip": "BulidingBlocks\\BuildingBlocks\\Exceptions\\InternalServerException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-25T13:53:31.145Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProductNotFoundException.cs",
+              "DocumentMoniker": "C:\\Users\\karl\\source\\repos\\eshop-microservice\\src\\Services\\Catalog\\Catalog.API\\Exceptions\\ProductNotFoundException.cs",
+              "RelativeDocumentMoniker": "Services\\Catalog\\Catalog.API\\Exceptions\\ProductNotFoundException.cs",
+              "ToolTip": "C:\\Users\\karl\\source\\repos\\eshop-microservice\\src\\Services\\Catalog\\Catalog.API\\Exceptions\\ProductNotFoundException.cs",
+              "RelativeToolTip": "Services\\Catalog\\Catalog.API\\Exceptions\\ProductNotFoundException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-25T12:21:53.624Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CustomExceptionHandler.cs",
+              "DocumentMoniker": "C:\\Users\\karl\\source\\repos\\eshop-microservice\\src\\BulidingBlocks\\BuildingBlocks\\Exceptions\\Handler\\CustomExceptionHandler.cs",
+              "RelativeDocumentMoniker": "BulidingBlocks\\BuildingBlocks\\Exceptions\\Handler\\CustomExceptionHandler.cs",
+              "ToolTip": "C:\\Users\\karl\\source\\repos\\eshop-microservice\\src\\BulidingBlocks\\BuildingBlocks\\Exceptions\\Handler\\CustomExceptionHandler.cs",
+              "RelativeToolTip": "BulidingBlocks\\BuildingBlocks\\Exceptions\\Handler\\CustomExceptionHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-25T12:01:19.369Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UpdateProductEndPoint.cs",
+              "DocumentMoniker": "C:\\Users\\karl\\source\\repos\\eshop-microservice\\src\\Services\\Catalog\\Catalog.API\\Products\\UpdateProduct\\UpdateProductEndPoint.cs",
+              "RelativeDocumentMoniker": "Services\\Catalog\\Catalog.API\\Products\\UpdateProduct\\UpdateProductEndPoint.cs",
+              "ToolTip": "C:\\Users\\karl\\source\\repos\\eshop-microservice\\src\\Services\\Catalog\\Catalog.API\\Products\\UpdateProduct\\UpdateProductEndPoint.cs",
+              "RelativeToolTip": "Services\\Catalog\\Catalog.API\\Products\\UpdateProduct\\UpdateProductEndPoint.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-22T06:21:38.553Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UpdateProductHandler.cs",
+              "DocumentMoniker": "C:\\Users\\karl\\source\\repos\\eshop-microservice\\src\\Services\\Catalog\\Catalog.API\\Products\\UpdateProduct\\UpdateProductHandler.cs",
+              "RelativeDocumentMoniker": "Services\\Catalog\\Catalog.API\\Products\\UpdateProduct\\UpdateProductHandler.cs",
+              "ToolTip": "C:\\Users\\karl\\source\\repos\\eshop-microservice\\src\\Services\\Catalog\\Catalog.API\\Products\\UpdateProduct\\UpdateProductHandler.cs",
+              "RelativeToolTip": "Services\\Catalog\\Catalog.API\\Products\\UpdateProduct\\UpdateProductHandler.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAA0wBcAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-21T17:22:21.687Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DeleteProductHandler.cs",
+              "DocumentMoniker": "C:\\Users\\karl\\source\\repos\\eshop-microservice\\src\\Services\\Catalog\\Catalog.API\\Products\\DeleteProduct\\DeleteProductHandler.cs",
+              "RelativeDocumentMoniker": "Services\\Catalog\\Catalog.API\\Products\\DeleteProduct\\DeleteProductHandler.cs",
+              "ToolTip": "C:\\Users\\karl\\source\\repos\\eshop-microservice\\src\\Services\\Catalog\\Catalog.API\\Products\\DeleteProduct\\DeleteProductHandler.cs",
+              "RelativeToolTip": "Services\\Catalog\\Catalog.API\\Products\\DeleteProduct\\DeleteProductHandler.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAUwBkAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-22T02:16:46.432Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ValidationBehavior.cs",
+              "DocumentMoniker": "C:\\Users\\karl\\source\\repos\\eshop-microservice\\src\\BulidingBlocks\\BuildingBlocks\\Behaviors\\ValidationBehavior.cs",
+              "RelativeDocumentMoniker": "BulidingBlocks\\BuildingBlocks\\Behaviors\\ValidationBehavior.cs",
+              "ToolTip": "C:\\Users\\karl\\source\\repos\\eshop-microservice\\src\\BulidingBlocks\\BuildingBlocks\\Behaviors\\ValidationBehavior.cs",
+              "RelativeToolTip": "BulidingBlocks\\BuildingBlocks\\Behaviors\\ValidationBehavior.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAiwBMAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-22T06:54:00.495Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\karl\\source\\repos\\eshop-microservice\\src\\Services\\Catalog\\Catalog.API\\Program.cs",
+              "RelativeDocumentMoniker": "Services\\Catalog\\Catalog.API\\Program.cs",
+              "ToolTip": "C:\\Users\\karl\\source\\repos\\eshop-microservice\\src\\Services\\Catalog\\Catalog.API\\Program.cs",
+              "RelativeToolTip": "Services\\Catalog\\Catalog.API\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAYAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-22T06:16:16.94Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CreateProductEndpoint.cs",
+              "DocumentMoniker": "C:\\Users\\karl\\source\\repos\\eshop-microservice\\src\\Services\\Catalog\\Catalog.API\\Products\\CreateProduct\\CreateProductEndpoint.cs",
+              "RelativeDocumentMoniker": "Services\\Catalog\\Catalog.API\\Products\\CreateProduct\\CreateProductEndpoint.cs",
+              "ToolTip": "C:\\Users\\karl\\source\\repos\\eshop-microservice\\src\\Services\\Catalog\\Catalog.API\\Products\\CreateProduct\\CreateProductEndpoint.cs",
+              "RelativeToolTip": "Services\\Catalog\\Catalog.API\\Products\\CreateProduct\\CreateProductEndpoint.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-22T06:45:25.738Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "GlobalUsing.cs",
+              "DocumentMoniker": "C:\\Users\\karl\\source\\repos\\eshop-microservice\\src\\Services\\Catalog\\Catalog.API\\GlobalUsing.cs",
+              "RelativeDocumentMoniker": "Services\\Catalog\\Catalog.API\\GlobalUsing.cs",
+              "ToolTip": "C:\\Users\\karl\\source\\repos\\eshop-microservice\\src\\Services\\Catalog\\Catalog.API\\GlobalUsing.cs",
+              "RelativeToolTip": "Services\\Catalog\\Catalog.API\\GlobalUsing.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-22T07:07:19.984Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\karl\\source\\repos\\eshop-microservice\\src\\Services\\Catalog\\Catalog.API\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "Services\\Catalog\\Catalog.API\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\karl\\source\\repos\\eshop-microservice\\src\\Services\\Catalog\\Catalog.API\\Models\\Product.cs",
+              "RelativeToolTip": "Services\\Catalog\\Catalog.API\\Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-21T17:30:05.965Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DeleteProductEndPoint.cs",
+              "DocumentMoniker": "C:\\Users\\karl\\source\\repos\\eshop-microservice\\src\\Services\\Catalog\\Catalog.API\\Products\\DeleteProduct\\DeleteProductEndPoint.cs",
+              "RelativeDocumentMoniker": "Services\\Catalog\\Catalog.API\\Products\\DeleteProduct\\DeleteProductEndPoint.cs",
+              "ToolTip": "C:\\Users\\karl\\source\\repos\\eshop-microservice\\src\\Services\\Catalog\\Catalog.API\\Products\\DeleteProduct\\DeleteProductEndPoint.cs",
+              "RelativeToolTip": "Services\\Catalog\\Catalog.API\\Products\\DeleteProduct\\DeleteProductEndPoint.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-22T02:17:02.838Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "GetProductByIdEndPoint.cs",
+              "DocumentMoniker": "C:\\Users\\karl\\source\\repos\\eshop-microservice\\src\\Services\\Catalog\\Catalog.API\\Products\\GetProductById\\GetProductByIdEndPoint.cs",
+              "RelativeDocumentMoniker": "Services\\Catalog\\Catalog.API\\Products\\GetProductById\\GetProductByIdEndPoint.cs",
+              "ToolTip": "C:\\Users\\karl\\source\\repos\\eshop-microservice\\src\\Services\\Catalog\\Catalog.API\\Products\\GetProductById\\GetProductByIdEndPoint.cs",
+              "RelativeToolTip": "Services\\Catalog\\Catalog.API\\Products\\GetProductById\\GetProductByIdEndPoint.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwBEAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-21T14:10:44.944Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GetProductByIdHandler.cs",
+              "DocumentMoniker": "C:\\Users\\karl\\source\\repos\\eshop-microservice\\src\\Services\\Catalog\\Catalog.API\\Products\\GetProductById\\GetProductByIdHandler.cs",
+              "RelativeDocumentMoniker": "Services\\Catalog\\Catalog.API\\Products\\GetProductById\\GetProductByIdHandler.cs",
+              "ToolTip": "C:\\Users\\karl\\source\\repos\\eshop-microservice\\src\\Services\\Catalog\\Catalog.API\\Products\\GetProductById\\GetProductByIdHandler.cs",
+              "RelativeToolTip": "Services\\Catalog\\Catalog.API\\Products\\GetProductById\\GetProductByIdHandler.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwA8AAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-21T13:42:41.348Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedHeight": 82,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BadRequestException.cs",
+              "DocumentMoniker": "C:\\Users\\karl\\source\\repos\\eshop-microservice\\src\\BulidingBlocks\\BuildingBlocks\\Exceptions\\BadRequestException.cs",
+              "RelativeDocumentMoniker": "BulidingBlocks\\BuildingBlocks\\Exceptions\\BadRequestException.cs",
+              "ToolTip": "C:\\Users\\karl\\source\\repos\\eshop-microservice\\src\\BulidingBlocks\\BuildingBlocks\\Exceptions\\BadRequestException.cs",
+              "RelativeToolTip": "BulidingBlocks\\BuildingBlocks\\Exceptions\\BadRequestException.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAUwAcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-25T13:59:50.403Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "NotFoundException.cs",
+              "DocumentMoniker": "C:\\Users\\karl\\source\\repos\\eshop-microservice\\src\\BulidingBlocks\\BuildingBlocks\\Exceptions\\NotFoundException.cs",
+              "RelativeDocumentMoniker": "BulidingBlocks\\BuildingBlocks\\Exceptions\\NotFoundException.cs",
+              "ToolTip": "C:\\Users\\karl\\source\\repos\\eshop-microservice\\src\\BulidingBlocks\\BuildingBlocks\\Exceptions\\NotFoundException.cs",
+              "RelativeToolTip": "BulidingBlocks\\BuildingBlocks\\Exceptions\\NotFoundException.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-25T13:50:36.205Z",
+              "EditorCaption": ""
             }
           ]
         }
