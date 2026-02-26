@@ -17,7 +17,7 @@ namespace Catalog.API.Products.CreateProduct
             RuleFor(x => x.Category).NotEmpty().WithMessage("At least one category is required.");
         }
     }
-    internal class CreateProductCommandHandler(IDocumentSession session, ILogger<CreateProductCommandHandler> logger) 
+    internal class CreateProductCommandHandler(IDocumentSession session) 
         : ICommandHandler<CreateProductCommand, CreateProductResult>
     {
         public async Task<CreateProductResult> Handle(CreateProductCommand command, CancellationToken cancellationToken)
@@ -27,7 +27,6 @@ namespace Catalog.API.Products.CreateProduct
             // save to db
             //return create product result resulte
 
-            logger.LogInformation("CreatProductCommandHandler.Handle called with {@Command}", command.Name);
 
             var product = new Product
             {

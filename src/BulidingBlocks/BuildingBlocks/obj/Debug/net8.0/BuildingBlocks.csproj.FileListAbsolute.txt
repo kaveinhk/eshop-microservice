@@ -11,3 +11,16 @@ C:\Users\karl\source\repos\eshop-microservice\src\BulidingBlocks\BuildingBlocks\
 C:\Users\karl\source\repos\eshop-microservice\src\BulidingBlocks\BuildingBlocks\obj\Debug\net8.0\refint\BuildingBlocks.dll
 C:\Users\karl\source\repos\eshop-microservice\src\BulidingBlocks\BuildingBlocks\obj\Debug\net8.0\BuildingBlocks.pdb
 C:\Users\karl\source\repos\eshop-microservice\src\BulidingBlocks\BuildingBlocks\obj\Debug\net8.0\ref\BuildingBlocks.dll
+C:\Users\karl.chan\source\repos\eshop-microservice\src\BulidingBlocks\BuildingBlocks\bin\Debug\net8.0\BuildingBlocks.deps.json
+C:\Users\karl.chan\source\repos\eshop-microservice\src\BulidingBlocks\BuildingBlocks\bin\Debug\net8.0\BuildingBlocks.dll
+C:\Users\karl.chan\source\repos\eshop-microservice\src\BulidingBlocks\BuildingBlocks\bin\Debug\net8.0\BuildingBlocks.pdb
+C:\Users\karl.chan\source\repos\eshop-microservice\src\BulidingBlocks\BuildingBlocks\obj\Debug\net8.0\BuildingBlocks.csproj.AssemblyReference.cache
+C:\Users\karl.chan\source\repos\eshop-microservice\src\BulidingBlocks\BuildingBlocks\obj\Debug\net8.0\BuildingBlocks.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\karl.chan\source\repos\eshop-microservice\src\BulidingBlocks\BuildingBlocks\obj\Debug\net8.0\BuildingBlocks.AssemblyInfoInputs.cache
+C:\Users\karl.chan\source\repos\eshop-microservice\src\BulidingBlocks\BuildingBlocks\obj\Debug\net8.0\BuildingBlocks.AssemblyInfo.cs
+C:\Users\karl.chan\source\repos\eshop-microservice\src\BulidingBlocks\BuildingBlocks\obj\Debug\net8.0\BuildingBlocks.csproj.CoreCompileInputs.cache
+C:\Users\karl.chan\source\repos\eshop-microservice\src\BulidingBlocks\BuildingBlocks\obj\Debug\net8.0\BuildingBlocks.sourcelink.json
+C:\Users\karl.chan\source\repos\eshop-microservice\src\BulidingBlocks\BuildingBlocks\obj\Debug\net8.0\BuildingBlocks.dll
+C:\Users\karl.chan\source\repos\eshop-microservice\src\BulidingBlocks\BuildingBlocks\obj\Debug\net8.0\refint\BuildingBlocks.dll
+C:\Users\karl.chan\source\repos\eshop-microservice\src\BulidingBlocks\BuildingBlocks\obj\Debug\net8.0\BuildingBlocks.pdb
+C:\Users\karl.chan\source\repos\eshop-microservice\src\BulidingBlocks\BuildingBlocks\obj\Debug\net8.0\ref\BuildingBlocks.dll
