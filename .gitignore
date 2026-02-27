@@ -1,12 +1,6 @@
 src/.vs
 src/BuildingBlocks/obj
-src/BuildingBlocks/BuildingBlocks/bin
-src/BuildingBlocks/BuildingBlocks/obj
+src/BuildingBlocks/BuildingBlocks/bin/*
 src/Services/Catalog/Catalog.API/bin
 src/Services/Catalog/Catalog.API/obj
-/src/BulidingBlocks/BuildingBlocks/obj/Debug/net8.0/BuildingBlocks.AssemblyInfo.cs
-/src/BulidingBlocks/BuildingBlocks/obj/Debug/net8.0/BuildingBlocks.AssemblyInfoInputs.cache
-/src/BulidingBlocks/BuildingBlocks/obj/Debug/net8.0/BuildingBlocks.assets.cache
-/src/BulidingBlocks/BuildingBlocks/obj/Debug/net8.0/BuildingBlocks.csproj.AssemblyReference.cache
-/src/BulidingBlocks/BuildingBlocks/obj/Debug/net8.0/BuildingBlocks.GeneratedMSBuildEditorConfig.editorconfig
-/src/BulidingBlocks/BuildingBlocks/obj/Debug/net8.0/BuildingBlocks.GlobalUsings.g.cs
+/src/BulidingBlocks/BuildingBlocks/obj/*
