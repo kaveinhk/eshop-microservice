@@ -1,6 +1,9 @@
 src/.vs
-src/BuildingBlocks/obj
-src/BuildingBlocks/BuildingBlocks/bin
-src/BuildingBlocks/BuildingBlocks/obj
-src/Services/Catalog/Catalog.API/bin
-src/Services/Catalog/Catalog.API/obj
+src/BuildingBlocks/obj/*
+src/BuildingBlocks/BuildingBlocks/bin/*
+src/Services/Catalog/Catalog.API/bin/*
+src/Services/Catalog/Catalog.API/obj/*
+src/Services/Basket/Basket.API/bin/*
+src/Services/Basket/Basket.API/obj/*
+/src/BulidingBlocks/BuildingBlocks/obj/*
+obj/*
