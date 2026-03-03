@@ -54,9 +54,17 @@
               "target": "Package",
               "version": "[2.76.0, )"
             },
-            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+            "Mapster": {
               "target": "Package",
-              "version": "[1.23.0, )"
+              "version": "[7.4.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "target": "Package",
+              "version": "[8.0.1, )"
             }
           },
           "imports": [
