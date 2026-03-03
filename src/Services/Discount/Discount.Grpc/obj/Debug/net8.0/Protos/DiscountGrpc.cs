@@ -8,9 +8,9 @@
 using grpc = global::Grpc.Core;
 
 namespace Discount.Grpc {
-  public static partial class DiscountService
+  public static partial class DiscountProtoService
   {
-    static readonly string __ServiceName = "discount.DiscountService";
+    static readonly string __ServiceName = "discount.DiscountProtoService";
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static void __Helper_SerializeMessage(global::Google.Protobuf.IMessage message, grpc::SerializationContext context)
@@ -96,9 +96,9 @@ namespace Discount.Grpc {
       get { return global::Discount.Grpc.DiscountReflection.Descriptor.Services[0]; }
     }
 
-    /// <summary>Base class for server-side implementations of DiscountService</summary>
-    [grpc::BindServiceMethod(typeof(DiscountService), "BindService")]
-    public abstract partial class DiscountServiceBase
+    /// <summary>Base class for server-side implementations of DiscountProtoService</summary>
+    [grpc::BindServiceMethod(typeof(DiscountProtoService), "BindService")]
+    public abstract partial class DiscountProtoServiceBase
     {
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::System.Threading.Tasks.Task<global::Discount.Grpc.CouponModel> GetDiscount(global::Discount.Grpc.GetDiscountRequest request, grpc::ServerCallContext context)
@@ -129,7 +129,7 @@ namespace Discount.Grpc {
     /// <summary>Creates service definition that can be registered with a server</summary>
     /// <param name="serviceImpl">An object implementing the server-side handling logic.</param>
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    public static grpc::ServerServiceDefinition BindService(DiscountServiceBase serviceImpl)
+    public static grpc::ServerServiceDefinition BindService(DiscountProtoServiceBase serviceImpl)
     {
       return grpc::ServerServiceDefinition.CreateBuilder()
           .AddMethod(__Method_GetDiscount, serviceImpl.GetDiscount)
@@ -143,7 +143,7 @@ namespace Discount.Grpc {
     /// <param name="serviceBinder">Service methods will be bound by calling <c>AddMethod</c> on this object.</param>
     /// <param name="serviceImpl">An object implementing the server-side handling logic.</param>
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    public static void BindService(grpc::ServiceBinderBase serviceBinder, DiscountServiceBase serviceImpl)
+    public static void BindService(grpc::ServiceBinderBase serviceBinder, DiscountProtoServiceBase serviceImpl)
     {
       serviceBinder.AddMethod(__Method_GetDiscount, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Discount.Grpc.GetDiscountRequest, global::Discount.Grpc.CouponModel>(serviceImpl.GetDiscount));
       serviceBinder.AddMethod(__Method_CreateDiscount, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Discount.Grpc.CreateDiscountRequest, global::Discount.Grpc.CouponModel>(serviceImpl.CreateDiscount));
