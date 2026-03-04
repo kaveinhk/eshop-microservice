@@ -32,7 +32,7 @@ namespace Discount.Grpc {
             "Ij4KFVVwZGF0ZURpc2NvdW50UmVxdWVzdBIlCgZjb3Vwb24YASABKAsyFS5k",
             "aXNjb3VudC5Db3Vwb25Nb2RlbCIsChVEZWxldGVEaXNjb3VudFJlcXVlc3QS",
             "EwoLcHJvZHVjdE5hbWUYASABKAkiKQoWRGVsZXRlRGlzY291bnRSZXNwb25z",
-            "ZRIPCgdzdWNjZXNzGAEgASgJMsMCChREaXNjb3VudFByb3RvU2VydmljZRJC",
+            "ZRIPCgdzdWNjZXNzGAEgASgIMsMCChREaXNjb3VudFByb3RvU2VydmljZRJC",
             "CgtHZXREaXNjb3VudBIcLmRpc2NvdW50LkdldERpc2NvdW50UmVxdWVzdBoV",
             "LmRpc2NvdW50LkNvdXBvbk1vZGVsEkgKDkNyZWF0ZURpc2NvdW50Eh8uZGlz",
             "Y291bnQuQ3JlYXRlRGlzY291bnRSZXF1ZXN0GhUuZGlzY291bnQuQ291cG9u",
@@ -1222,13 +1222,13 @@ namespace Discount.Grpc {
 
     /// <summary>Field number for the "success" field.</summary>
     public const int SuccessFieldNumber = 1;
-    private string success_ = "";
+    private bool success_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public string Success {
+    public bool Success {
       get { return success_; }
       set {
-        success_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+        success_ = value;
       }
     }
 
@@ -1255,7 +1255,7 @@ namespace Discount.Grpc {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override int GetHashCode() {
       int hash = 1;
-      if (Success.Length != 0) hash ^= Success.GetHashCode();
+      if (Success != false) hash ^= Success.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -1274,9 +1274,9 @@ namespace Discount.Grpc {
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       output.WriteRawMessage(this);
     #else
-      if (Success.Length != 0) {
-        output.WriteRawTag(10);
-        output.WriteString(Success);
+      if (Success != false) {
+        output.WriteRawTag(8);
+        output.WriteBool(Success);
       }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
@@ -1288,9 +1288,9 @@ namespace Discount.Grpc {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (Success.Length != 0) {
-        output.WriteRawTag(10);
-        output.WriteString(Success);
+      if (Success != false) {
+        output.WriteRawTag(8);
+        output.WriteBool(Success);
       }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
@@ -1302,8 +1302,8 @@ namespace Discount.Grpc {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int CalculateSize() {
       int size = 0;
-      if (Success.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(Success);
+      if (Success != false) {
+        size += 1 + 1;
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -1317,7 +1317,7 @@ namespace Discount.Grpc {
       if (other == null) {
         return;
       }
-      if (other.Success.Length != 0) {
+      if (other.Success != false) {
         Success = other.Success;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
@@ -1339,8 +1339,8 @@ namespace Discount.Grpc {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
-          case 10: {
-            Success = input.ReadString();
+          case 8: {
+            Success = input.ReadBool();
             break;
           }
         }
@@ -1362,8 +1362,8 @@ namespace Discount.Grpc {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
-          case 10: {
-            Success = input.ReadString();
+          case 8: {
+            Success = input.ReadBool();
             break;
           }
         }
