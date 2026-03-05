@@ -15,6 +15,7 @@ WORKDIR /src
 COPY ["Services/Catalog/Catalog.API/Catalog.API.csproj", "Services/Catalog/Catalog.API/"]
 COPY ["BulidingBlocks/BuildingBlocks/BuildingBlocks.csproj", "BulidingBlocks/BuildingBlocks/"]
 RUN dotnet restore "./Services/Catalog/Catalog.API/Catalog.API.csproj"
+RUN dotnet dev-certs https --trust
 COPY . .
 WORKDIR "/src/Services/Catalog/Catalog.API"
 RUN dotnet build "./Catalog.API.csproj" -c $BUILD_CONFIGURATION -o /app/build
@@ -27,5 +28,6 @@ RUN dotnet publish "./Catalog.API.csproj" -c $BUILD_CONFIGURATION -o /app/publis
 # 此階段用於生產環境，或以一般模式從 VS 執行時 (未使用偵錯設定時的預設值)
 FROM base AS final
 WORKDIR /app
+COPY --from=build /root/.dotnet/corefx/cryptography/x509stores/my/* /root/.dotnet/corefx/cryptography/x509stores/my/
 COPY --from=publish /app/publish .
-ENTRYPOINT ["dotnet", "dev-certs","https","--trust", "Catalog.API.dll"]
+ENTRYPOINT ["dotnet", "Catalog.API.dll"]
